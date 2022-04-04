@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RedditTopChart</string>
+    <string name="toolbar_reddit_top_chart">Reddit Top Chart</string>
+    <string name="main_screen_drawer_layout_menu_title">Main Screen</string>
+    <string name="another_menu">Another menu</string>
+    <string name="reddit_top_chart_nav_header_title">Reddit Top Chart</string>
+    <string name="about">/@About</string>
+    <string name="profile">profile</string>
 </resources>
