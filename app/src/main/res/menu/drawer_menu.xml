@@ -9,4 +9,5 @@
         android:icon="@android:drawable/ic_menu_search"
         android:title="@string/another_menu"
         />
+
 </menu>

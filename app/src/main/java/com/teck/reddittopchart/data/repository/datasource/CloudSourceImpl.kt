@@ -14,7 +14,7 @@ class CloudSourceImpl(private val api: BackendApi) : CloudSource, PagingSource<S
     }
 
     override suspend fun load(params: LoadParams<String>): LoadResult<String, Children> {
-        val nextPage: String = params.key.toString()
+        val nextPage: String = params.key.toString() ?: ""
         val data = api.getMorePosts(nextPage).data.children
         val key = api.getMorePosts(nextPage).data.after
         return try {
