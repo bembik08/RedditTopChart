@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object BackendRepo {
-    private val gson = Gson()
+    val gson = Gson()
         .newBuilder()
         .setLenient()
         .create()
